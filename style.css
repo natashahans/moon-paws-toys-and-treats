@@ -26,6 +26,18 @@ body {
 .btn.btn-outline-success { /* search button */
     color: rgb(201, 201, 201);
 }
+@media only screen and (max-width: 600px) {
+    .btn.btn-outline-success {
+      display: none; 
+}
+.d-flex {
+    display: none;
+}
+.navbar-toggler-icon {
+    font-size: 0.73rem;
+}
+}
+/*mobile edit (search button disabled) OVER*/
 .navbar-nav .nav-link,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-item.active .nav-link {
